@@ -56,7 +56,7 @@ mymenu.style.display="block";
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style='font-size:25px;text-align:center;color:#6089f6' class="button button2" class="subnavbtn" >Exploit's<i class="fa fa-caret-down"></i></button>&nbsp;
     <div class="subnav-content">
      <br><br>
-     <button  onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U> > > > NOVO < < < Exploit de Sleirsgoevy</U></font><br><br>Exploração do kernel versão de 03/06/2021. Ativação em 16 segundos.<br>Esta é uma exploração completa para o console PS4 com firmware 7.55.<br>Basicamente, este é o TheFlows POC junto com os patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit03062021(); return false"><img src="img/exploit.png"></button>
+     <button  onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U> NOVO Exploit de Sleirsgoevy</U></font><br><br>Exploração do kernel versão de 03/06/2021. Ativação em 16 segundos.<br>Esta é uma exploração completa para o console PS4 com firmware 7.55.<br>Basicamente, este é o TheFlows POC junto com os patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit03062021(); return false"><img src="img/exploit.png"></button>
      <button  onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Exploit de Sleirsgoevy</U></font><br><br>Exploração do kernel versão de 27/05/2021. Ativação em 16 segundos.<br>Esta é uma exploração completa para o console PS4 com firmware 7.55.<br>Basicamente, este é o TheFlows POC junto com os patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit27052021(); return false"><img src="img/exploit.png"></button>
      <button onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Exploit de Sleirsgoevy  </U></font><br><br>Exploração do kernel versão de 20/05/2021. Ativação em 16 segundos.<br>Esta é uma exploração completa para o console PS4 com firmware 7.55.<br>Basicamente, este é o TheFlows POC junto com os patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit20052021(); return false"><img src="img/exploit.png"></button>
 	 <button  style='border:4px solid #ee596f' onMouseOver="msgs.innerHTML='<font style=\'color:#ee596f\'><U>Exploit de Sleirsgoevy - mais estável no meu PS4</U></font></font><br> <br> Exploração do kernel versão de 02/05/2021, com 12 segundos de atraso. <br> Este é um exploit de cadeia completa para o firmware do PS4 7.55. <br> Basicamente, este é TheFlows POC junto com patches KROP e kernel específicos do PS4.'"; onmouseout="msgs.innerHTML=''" onclick="load_exploit_new(); return false"><img src="img/exploit.png"></button>
@@ -509,6 +509,7 @@ LoadedMSG="Back-To-Retail Loaded<br><font style='color:#ee596f'>Use o botão PS 
 PLfile = "payload/pl_backtoretail.bin";
 loadScript2();
 }
+
 function load_FWspoof(){
 msgs.innerHTML="Loading Firmware Spoof...";
 LoadedMSG="Firmware Spoof Loaded<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
@@ -527,54 +528,6 @@ function load_webrte(){
 msgs.innerHTML="Loading WebRTE ...";
 LoadedMSG="WebRTE Loaded<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
 PLfile = "payload/pl_webrte.bin";
-loadScript2();
-}
-
-function load_gtava1(){
-msgs.innerHTML="Loading ArabicGuy 1.00 ...";
-LoadedMSG="ArabicGuy 1.00 Loaded<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
-PLfile = "payload/pl_GTA_ArabicGuy100.bin";
-loadScript2();
-}
-
-function load_gtava2(){
-msgs.innerHTML="Loading ArabicGuy 1.27 ...";
-LoadedMSG="ArabicGuy 1.27 Loaded<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
-PLfile = "payload/pl_GTA_ArabicGuy127.bin";
-loadScript2();
-}
-
-function load_gtava3(){
-msgs.innerHTML="Loading ArabicGuy 1.32 ...";
-LoadedMSG="ArabicGuy 1.32 Loaded<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
-PLfile = "payload/pl_GTA_ArabicGuy132.bin";
-loadScript2();
-}
-
-function load_gtavl(){
-msgs.innerHTML="Loading Lamance 1.32 ...";
-LoadedMSG="Lamance 1.32 Loaded<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
-PLfile = "payload/pl_GTA_Lamance132.bin";
-loadScript2();
-}
-function load_gtavn1(){
-msgs.innerHTML="Loading NativeCaller 1.00 ...";
-LoadedMSG="NativeCaller 1.00 Loaded<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
-PLfile = "payload/pl_GTA_NativeCaller100.bin";
-loadScript2();
-}
-
-function load_gtavn2(){
-msgs.innerHTML="Loading NativeCaller 1.27 ...";
-LoadedMSG="NativeCaller 1.27 Loaded<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
-PLfile = "payload/pl_GTA_NativeCaller127.bin";
-loadScript2();
-}
-
-function load_gtavn3(){
-msgs.innerHTML="Loading NativeCaller 1.32 ...";
-LoadedMSG="NativeCaller 1.32 Loaded<br><font style='color:#ee596f'>Use o botão PS para sair do menu</font>";
-PLfile = "payload/pl_GTA_NativeCaller132.bin";
 loadScript2();
 }
 
