@@ -84,6 +84,7 @@ payload\pl_SaveDataBackup.bin
 payload\pl_SaveDataRestore.bin
 payload\pl_TrophyBackup.bin
 payload\pl_TrophyRestore.bin
+payload\pl_toolbox.bin
 payload\pl_webactivator.bin
 payload\pl_webrte.bin
 payload\fan_control\pl_fancontrol50.bin
