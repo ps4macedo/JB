@@ -5,6 +5,7 @@ index.css
 index.html
 common\blob.js
 common\exp_jb03062021.js
+common\exp_jb15062021.js
 common\exp_jailbreak20052021.js
 common\exp_jailbreak27052021.js
 common\exp_jailbreak.js
@@ -94,5 +95,3 @@ payload\fan_control\pl_fancontrol65.bin
 payload\fan_control\pl_fancontrol70.bin
 payload\fan_control\pl_fancontrol75.bin
 payload\fan_control\pl_fancontrol80.bin
-payload\fan_control\pl_fancontrol85.bin
-payload\fan_control\pl_fancontrol90.bin
